@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+output/
+
+# Certificate (sensitive - don't commit to public repos)
+*.pfx
+
+# Temp files from makecab
+setup.inf
+setup.rpt
+
+# IDE
+.vs/
+*.user
+*.suo
+
+# NuGet
+packages/
